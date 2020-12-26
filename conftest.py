@@ -7,7 +7,6 @@ import logging.handlers
 
 import pytest
 import requests
-import subprocess
 
 logging.basicConfig(level=os.environ.get("LOGLEVEL", "INFO").upper(),
                     format="[%(asctime)s.%(msecs)03d][%(levelname)s]: %(message)s",

@@ -1,0 +1,16 @@
+To run tests you first need to install Python 3.8 (if it's not) and python package manager pip.
+
+
+To install required libraries in command line run to a directory with downloaded project and run next command:
+
+pip3 install -r requirements.txt
+
+
+To run all tests just type next command without any parameters in command line in api_tests directory:
+
+pytest
+
+
+To run desired test with command line run:
+
+pytest <name_of_desired_test>

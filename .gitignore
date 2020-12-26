@@ -319,3 +319,4 @@ tests/reports
 .pytest_cache
 tests/.pytest_cache/
 .idea/
+venv
